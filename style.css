@@ -46,44 +46,67 @@
 }
 
 .el-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     text-align: center;
     background-color: rgba(189, 219, 248, 0.85);
-    font-size: 36px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-.el-order{
-    text-align: center;
-    background-color: rgba(255, 241, 230, 0.85);
     font-size: 30px;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
+    height: 60px;
+}
+
+.el-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 241, 230, 0.85);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 60px;
+}
+.game{
+    max-width: 230px;
+
+}
+.master{
+    max-width: 178px;
+
+}
+.when{
+    max-width: 185px;
+
+}
+.score{
+    max-width: 103px;
+
+}
+.number{
+    max-width: 43px;
 }
 
 
+@media (max-width: 690px) {
 
+    .header{
+        font-size: 40px;
+    }
 
-
-
-
-
-
-
-@media (max-width: 1400px) {
+    .el-head {
+        font-size: 25px;
+        height: 50px;
+    }
     
-}
-
-
-@media (max-width: 820px) {
-
-
-}
-
-@media (max-width: 670px) {
+    .el-order{
+        font-size: 20px;
+        height: 50px;
+    }
 
 
 }
