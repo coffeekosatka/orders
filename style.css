@@ -95,16 +95,16 @@
 @media (max-width: 690px) {
 
     .header{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .el-head {
-        font-size: 25px;
+        font-size: 20px;
         height: 50px;
     }
     
     .el-order{
-        font-size: 20px;
+        font-size: 15px;
         height: 50px;
     }
 
