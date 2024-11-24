@@ -2,6 +2,10 @@
     font-family: Gaegu;
     src: url('assets/gaegu-regular.ttf');
   }
+@font-face {
+    font-family: Core;
+    src: url('assets/CoreNaraePro.ttf');
+  }
 
 
 * {
